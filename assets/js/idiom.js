@@ -16,14 +16,14 @@ changeMode.addEventListener('click', function () {
             const translation = phrase.getAttribute('data-en');
             phrase.textContent = translation
         } 
-        document.querySelector('#Cv').href ='../cv/cv_en.png'           
+        document.getElementById('Cv').href ="./assets/cv/cv_en.png"           
     } else {       
         changeMode.textContent = 'language_us';
         for ( const phrase of elementsToTransalate){
             const translation = phrase.getAttribute('data-es');
             phrase.textContent = translation
         }
-        document.querySelector('#Cv').href = '../cv/cv_es.png'                      
+        document.getElementById('Cv').href = "./assets/cv/cv_es.png"                     
     }    
 })     
 // console.log(changeMode); 

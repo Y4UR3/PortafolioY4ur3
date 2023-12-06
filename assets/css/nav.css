@@ -107,7 +107,7 @@
     display: block;
     font-size: 40px;
     cursor: pointer;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
     width: 100%;
     padding: 0%;
     text-align: right;
@@ -121,7 +121,7 @@
     justify-content: flex-start;
     align-items: flex-end;
     z-index: 3;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
     height: 94vh;
     max-height: 564px;
     overflow-y: auto;
