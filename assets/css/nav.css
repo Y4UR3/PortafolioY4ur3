@@ -136,7 +136,8 @@
   .nav__ul1{
     flex-direction: column;
     justify-content: flex-end;
-    padding: 1px;
+    align-items: end;
+    padding: 20px ;
   }
 
   .nav__ul:nth-child(1) {
