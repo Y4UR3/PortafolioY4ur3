@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-secondary);
+}
+.footer-content h2{
+    font-size: 3em;
+}
+.footer-content h5,
+.sotial-network i{
+    font-size: 1.5em;
+}
+.sotial-network {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 1em;
+    cursor: pointer;
+} 
+.sotial-network i {
+    color: var(--text);
+}
