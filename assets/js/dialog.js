@@ -31,15 +31,18 @@ document.addEventListener('DOMContentLoaded', function () {
       const templateID = 'template_hr8dtbx';
    
       emailjs.sendForm(serviceID, templateID, form)
-       .then(() => {
-         btn.value = 'Send Email';
-         alert('Sent!');
-          }, (err) => {
-         btn.value = 'Send Email';
-         alert(JSON.stringify(err));
-        });
-    });
-  
-  
+      .then(() => {
+        window.alert('Sent!');
+        form.reset();
+        dialog.close();
+
+      })
+      .catch((error) => {
+        alert(JSON.stringify(error));
+      })
+
+
+
+  })
 })
   
